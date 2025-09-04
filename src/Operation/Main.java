@@ -39,15 +39,13 @@ public class Main {
     System.out.println("\n=== Bitwise Operators ===");
     int p = 6; // Binary: 110
     int q = 4; // Binary: 100
+
     System.out.println("p = " + p + " (binary: " + Integer.toBinaryString(p) + ")");
     System.out.println("q = " + q + " (binary: " + Integer.toBinaryString(q) + ")");
-    System.out.println("p & q = " + (p & q) + " (AND)"); // Bitwise AND
-    System.out.println("p | q = " + (p | q) + " (OR)"); // Bitwise OR
-    System.out.println("p ^ q = " + (p ^ q) + " (XOR)"); // Bitwise XOR
-    System.out.println("~p = " + (~p) + " (NOT)"); // Bitwise NOT
-    System.out.println("p << 1 = " + (p << 1) + " (Left shift)");
-    System.out.println("q >> 1 = " + (q >> 1) + " (Right shift)");
-    System.out.println("p >>> 1 = " + (p >>> 1) + " (Unsigned right shift)");
+
+    System.out.println("p & q = " + (p & q) + " (AND, binary: " + Integer.toBinaryString(p & q) + ")");
+    System.out.println("p | q = " + (p | q) + " (OR, binary: " + Integer.toBinaryString(p | q) + ")");
+    System.out.println("p ^ q = " + (p ^ q) + " (XOR, binary: " + Integer.toBinaryString(p ^ q) + ")");
 
     // String Comparison
     System.out.println("\n=== String Comparison ===");
