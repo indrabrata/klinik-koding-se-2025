@@ -18,9 +18,10 @@ my name is [Your Name]
 
 **Expected Output:**
 
-```md
-Name Math Science English
-Alice 90 85 88
-Bob 78 82 80
-Charlie 85 90 92
+```text
+| Name     | Math | Science | English |
+|----------|------|---------|---------|
+| Alice    | 90   | 85      | 88      |
+| Bob      | 78   | 82      | 80      |
+| Charlie  | 85   | 90      | 92      |
 ```
