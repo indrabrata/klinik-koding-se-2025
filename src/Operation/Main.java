@@ -56,7 +56,7 @@ public class Main {
 
     System.out.println("str1 = \"" + str1 + "\"");
     System.out.println("str2 = \"" + str2 + "\"");
-    System.out.println("str3 = new String(\"Hello\")");
+    System.out.println("str3 = \"" + str3 + "\"");
     System.out.println("str4 = \"" + str4 + "\"");
 
     System.out.println("\nUsing == operator:");
