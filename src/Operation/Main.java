@@ -7,7 +7,6 @@ public class Main {
 
     // Arithmetic Operators
     System.out.println("=== Arithmetic Operators ===");
-
     System.out.println("a = " + a + ", b = " + b);
     System.out.println("a + b = " + (a + b)); // Addition
     System.out.println("a - b = " + (a - b)); // Subtraction
